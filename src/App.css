@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main_container{
+    background-image:url("background.jpg") ;
+    background-position: left;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 60px;
+    margin-top: -100px;
+    padding: 30px;
+    color: rgb(0, 0, 0);
+}
+.container input{
+    margin: 10px;
+}
+.container{
+    color: rgb(0, 0, 0);
+}
+.button_div{
+    flex-direction: row;
+}
+button{
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
+}
+.generatedPassword input{
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    border-radius: 20px;
+}
+.length{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.length input{
+    border-radius: 5px;
+    height: 30px;
+}
